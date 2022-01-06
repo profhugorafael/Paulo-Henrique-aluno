@@ -8,3 +8,9 @@
 ## 📂 Notas de Aula - **Aula 03**
 
   1.  Funções - Sintaxe e aplicações
+
+
+## 📂 Notas de Aula - **Static Classes**
+
+  1. Revisão conceito de classes
+  
