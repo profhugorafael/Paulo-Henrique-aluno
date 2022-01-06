@@ -2,7 +2,7 @@
 
 ## Short Brief - Package classes
 
-**bad way**
+### bad way
 
 Main.java:
 ```java
