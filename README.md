@@ -1,16 +1,10 @@
 # Sumário do repositório
 
-## 📂 Notas de Aula - **Aula 02**
+## 📂📝 Notas de Aula 
 
- 1. Estrutuas condicionais - Sintaxe `if-elseif-else`
- 2. Operadores Lógicos - `&&` / `||`
- 3. Estruturas de repetição - Sintaxe `for` e `while`
-## 📂 Notas de Aula - **Aula 03**
+ Notas criadas para estudo, com códigos de exemplo e feitas antes do desenvolvimento de projetos mais complexos.
 
-  1.  Funções - Sintaxe e aplicações
+ ## 📂☕ Java Projects
+## 📂☕ Java Samples
 
-
-## 📂 Notas de Aula - **Static Classes**
-
-  1. Revisão conceito de classes
-  
+## 📂⚙️ Cpp Samples
