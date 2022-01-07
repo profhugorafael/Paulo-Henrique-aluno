@@ -88,7 +88,7 @@ Sintaxe: > 📦`MyClassesPackage` >  ➕`MySubClass.java`
 
 ```
 
-### Override
+### OVERRIDE
 
 **sobrescreve** na classe filha uma função que, necessariamente, pertence a classe mãe.
 
