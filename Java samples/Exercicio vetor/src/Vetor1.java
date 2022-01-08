@@ -2,9 +2,7 @@ import java.util.Scanner;
 
 public class Vetor1 {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {		
 		Scanner input = new Scanner(System.in);
 		
 		int[] a = new int [100];
@@ -22,6 +20,7 @@ public class Vetor1 {
 			
 		}
 
+		input.close();
 	}
 
 }

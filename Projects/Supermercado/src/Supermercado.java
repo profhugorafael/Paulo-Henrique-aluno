@@ -114,7 +114,6 @@ class Livro extends Produto {
 
 	@Override
 	public double calculaImpostoExtra() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 }
@@ -151,7 +150,6 @@ class Alimento extends Produto {
 
 	@Override
 	public double calculaImpostoExtra() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 
