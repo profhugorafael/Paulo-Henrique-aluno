@@ -135,6 +135,43 @@ protege uma variável dentro um pacote, isto é, fora do pacote ela será `priva
   //not works!!!!
   System.out.println(MyWallet.money); 
 ```
+
+### UPCASTING AND DOWNCASTING
+
+  | accounts <br>
+  | > savingsAccounts <br>
+  | > businessAccounts
+
+  ```java
+  account acc = new account( ... );
+  businessAccount = new businessAccount( ... );
+
+  // upcasting - conceito é um ou é uma
+  account acc1 = new businessAccount( ... );
+
+  // downcasting 
+  businessAccount acc2 = (businessAccount)acc1;
+  ```
+
+### INSTANCEOF
+
+Checha se um objeto é uma instância de uma classe em específico.
+
+```java
+
+BusinessAccount acc2 = new businessAccount( ... );
+
+if( acc2 instanceof BusinessAccount ){
+  //true
+} else if( acc2 instanceof Account ){
+  //true
+} else if( acc2 instanceof SavingsAccount ){
+  //false
+}
+
+```
+  
+
 ## Como aplicar o conceito de herança
 
 > 📦`services` >  ➕`Account.java`
