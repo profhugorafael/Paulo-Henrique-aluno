@@ -2,15 +2,15 @@
 
   sistema de banco
 
-  cadastrar um novo usuário
+  cadastrar um novo usuï¿½rio
     - nome
     - valor em conta
 
-  operações
+  operaï¿½ï¿½es
     - adicionarSaldo
     - removerSaldo
     - consultarSaldo : toString()
-    - fazerEmpréstimo( *1.45) 
+    - fazerEmprï¿½stimo( *1.45) 
 */
 import java.util.Locale;
 class Conta{
@@ -60,6 +60,7 @@ class Conta{
 
 public class Banco{
 
+  public void menu();
   public static void main(String[] args){
       Locale.setDefault(Locale.US);
 
@@ -77,4 +78,9 @@ public class Banco{
     System.out.println(joao);
 
   }
+
+  public void menu(){
+    System.out.println("menu");
+  }
+
 }

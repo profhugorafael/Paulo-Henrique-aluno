@@ -1,8 +1,6 @@
 package entities;
 
-import entities.Shape;
-
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
   
   private Double width;
   private Double height;
@@ -29,7 +27,6 @@ public class Rectangle extends Shape {
     this.height = height;
   }
 
-  @Override
   public Double area() {
     return width*height;
   }

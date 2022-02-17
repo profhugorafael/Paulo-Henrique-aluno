@@ -1,7 +1,5 @@
 package entities;
 
 public interface Shape {
-  
-  Double area();
-
+	Double area();
 }

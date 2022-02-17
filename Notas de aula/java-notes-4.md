@@ -170,7 +170,14 @@ if( acc2 instanceof BusinessAccount ){
 }
 
 ```
+
+### FINAL
+
+Estabelece que aquela classe, função ou variável não pode ser sobrescrita.
   
+## Classes abstratas
+
+Classes que não podem ser intanciadas, só servem para serem extendidas por outras classes.
 
 ## Como aplicar o conceito de herança
 
