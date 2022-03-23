@@ -1,4 +1,3 @@
-package T4;
 import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.Collections;
@@ -224,8 +223,8 @@ public class Supermercado {
 
 	public Produto criaProduto(Scanner entrada) {
 		int choice = 0;
-		String desc = "";
-		double preco = 0, calorias = 0;
+		String desc;
+		double preco;
 		System.out.println("Escolha: ");
 		System.out.println("1- Alimento " + "2- Livro 3-Bebida");
 		
@@ -243,7 +242,7 @@ public class Supermercado {
 				desc = entrada.nextLine();
 				preco = entrada.nextDouble();
 				entrada.nextLine();
-				calorias = entrada.nextDouble();
+				double calorias = entrada.nextDouble();
 			}catch(InputMismatchException e) {
 				System.out.println("Algumas das entradas para o Alimento esta invalida");
 			}
@@ -253,13 +252,12 @@ public class Supermercado {
 
 		case 2: {
 			System.out.println("Voce escolheu livro, entre a descricao, preco, titulo e autor: ");
-            String titulo = "", autor = "";
 			try{
 				desc = entrada.nextLine();
 				preco = entrada.nextDouble();
 				entrada.nextLine();
-				titulo = entrada.nextLine();
-				autor = entrada.nextLine();
+				String titulo = entrada.nextLine();
+				String autor = entrada.nextLine();
 			}catch(InputMismatchException e) {
 				System.out.println("Algumas das entradas para o Livro esta invalida");
 			}
@@ -268,12 +266,11 @@ public class Supermercado {
 
 		case 3: {
 			System.out.println("Voce escolheu bebida, entre a descricao, preco e tipo: ");
-            String tipo="";
 			try{
 				desc = entrada.nextLine();
 				preco = entrada.nextDouble();
 				entrada.nextLine();
-				tipo = entrada.nextLine();
+				String tipo = entrada.nextLine();
 			}catch(InputMismatchException e) {
 				System.out.println("Alguma das entradas para a Bebida esta invalida");
 			}
@@ -322,8 +319,11 @@ public class Supermercado {
 					sup.inserir(sup.criaProduto(input));
 					break;
 				case 2:
-					sup.remover(sup.criaProduto(input));
-					System.out.println("Produto removido com sucesso!");
+						try {
+							sup.remover(sup.criaProduto(input));
+							System.out.println("Produto removido com sucesso!")
+						}catch() {
+						}
 					break;
 				case 3:
 					sup.ordenar();
