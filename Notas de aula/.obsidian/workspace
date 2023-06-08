@@ -1,0 +1,110 @@
+{
+  "main": {
+    "id": "558c859a9522fe60",
+    "type": "split",
+    "children": [
+      {
+        "id": "43c2553b2299f664",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "java-notes-4.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a5a91812dc2361eb",
+    "type": "split",
+    "children": [
+      {
+        "id": "07608d2bb57da4f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5af127645b13872",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e627e3d3a46c66e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 246
+  },
+  "right": {
+    "id": "99241c390e90e1ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "42a110964eb42e93",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d19cf6d09084a172",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "java-notes-4.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47c9d2911af6c1bc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "43c2553b2299f664",
+  "lastOpenFiles": [
+    "java-notes-4.md",
+    "java-notes-5.md",
+    "java-notes-2.md",
+    "java-notes-1.md",
+    "Untitled.md",
+    "aula02-detalhes.md",
+    "POO.md"
+  ]
+}
